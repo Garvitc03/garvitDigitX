@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.blog-title {
+    color: #4c0620;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 50px 0 0 0;
+    
+    &::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background-color: black;
+      margin-bottom: 40px;
+    }
+  }
+.blog-post {  
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(/assets/img/blogbg3.jpg);
+}
+
+.post-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post-date {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 10px;
+    }
+    
+    .blog-post {
+        padding: 10px;
+    }
+    
+    .post-title {
+        font-size: 24px;
+    }
+    
+    .post-date {
+        font-size: 14px;
+    }
+}

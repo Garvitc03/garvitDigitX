@@ -1,0 +1,209 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+.slider-activation {
+    position: relative;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+.slider-fixed--height {
+    min-height: 900px;
+}
+}
+.slider-fixed--height {
+    min-height: 1080px;
+    width: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.slider-fixed--height {
+    min-height: auto;
+    padding: 80px 0 60px;
+}
+}
+@media only screen and (max-width: 767px){
+.slider-fixed--height {
+    min-height: auto;
+    padding: 60px 0;
+}
+}
+.bg_image--1 {
+    background-image: url(/assets/img/light.jpg)!important;
+}
+.bg_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.position-relative {
+    position: relative!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.slide.slide-style-1 .inner {
+    padding-top: 100px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.slide.slide-style-1 .inner {
+    padding-top: 50px;
+}
+}
+@media only screen and (max-width: 767px){
+.slide.slide-style-1 .inner {
+    padding-top: 70px;
+}
+}
+
+
+.slide .inner h1.title {
+    font-size: 125px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 900;
+    line-height: 130px;
+}
+.theme-gradient {
+    background: linear-gradient(145deg,#efa2d9,#db20de);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+.slide .inner h1.title {
+    font-size: 100px;
+    line-height: 112px;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.slide .inner h1.title {
+    font-size: 90px;
+    line-height: 103px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.slide.slide-style-1 .inner h1.title {
+    font-size: 70px;
+    line-height: 82px;
+    margin-bottom: 26px;
+}
+}
+@media only screen and (max-width: 767px){
+    .slide .inner h1.title {
+        font-size: 50px;
+        line-height: 62px;
+        margin-bottom: 22px;
+    }
+ }
+@media only screen and (max-width: 575px){
+.slide .inner h1.title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+}
+
+
+.slide .service {
+    margin-top: 50px;
+}
+.service-white .service__style--1 {
+    z-index: 2;
+}
+.service.service__style--1 {
+    padding: 40px 0;
+    z-index: 2;
+}
+.service.service__style--1, .service.service__style--2 {
+    position: relative;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+.slide .service {
+    margin-top: 0;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.slide .service {
+    margin-top: 20px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.slide .service {
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 767px){
+.slide .service {
+    margin-top: 20px;
+}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.service.service__style--1 .icon img {
+    margin-bottom: 34px;
+}
+img {
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px){
+.service.service__style--1 .icon img {
+    margin-bottom: 14px;
+    height: 53px;
+ }
+}
+@media only screen and (max-width: 575px){
+.service.service__style--1 .icon img {
+    margin-bottom: 13px;
+    height: 45px;
+}
+}
+.service-white .service__style--1 .content h4.title, .service-white .service__style--1 .content p {
+    color: #c6c9d8;
+}
+.service.service__style--1 .content h4.title {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+@media only screen and (max-width: 767px){
+.service.service__style--1 .content h4.title {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 575px){
+.service.service__style--1 .content h4.title {
+    margin-bottom: 9px;
+    font-size: 18px;
+}
+}
+.service.service__style--1 .content p {
+    opacity: .75;
+    font-weight: 300;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 767px){
+p {
+    font-size: 16px!important;
+    line-height: 28px!important;
+}
+}
